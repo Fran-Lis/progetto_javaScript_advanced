@@ -1,0 +1,22 @@
+@media (max-width: 1024px){
+    #textBoxContainer{
+        width: 50%;
+    }
+    #tableContainer{
+        width: 100%;
+    }
+    table{
+        margin: auto;
+    }
+    .score{
+        margin-top: 25px;
+    }
+}
+@media (max-width: 767px) {
+    #textBoxContainer{
+        width: 100%;
+    }
+    #container{
+        flex-direction: column-reverse;
+    }
+}
